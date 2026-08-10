@@ -112,6 +112,8 @@ function Portfolio() {
       {/* Hero */}
       <header className="surface relative overflow-hidden p-8 sm:p-12">
         <div className="pointer-events-none absolute -right-24 -top-24 size-64 rounded-full bg-primary/15 blur-3xl" />
+        <div className="relative flex flex-col items-center gap-8 sm:flex-row sm:items-start sm:justify-between">
+          <div className="order-2 sm:order-1">
         <p className="eyebrow">Portfolio</p>
         <h1 className="mt-3 text-4xl leading-tight font-semibold sm:text-6xl">
           Christin <span className="text-gradient">Divya I</span>
