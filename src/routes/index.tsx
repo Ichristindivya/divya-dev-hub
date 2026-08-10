@@ -139,7 +139,22 @@ function Portfolio() {
             </a>
           ))}
         </div>
+          </div>
+          <div className="order-1 shrink-0 sm:order-2">
+            <div className="relative">
+              <div className="absolute -inset-2 rounded-3xl bg-primary/15 blur-2xl" />
+              <img
+                src={portrait.url}
+                alt="Portrait of Christin Divya I"
+                width={640}
+                height={854}
+                className="relative w-40 rounded-2xl border border-primary/30 object-cover shadow-[var(--shadow-glow)] sm:w-52"
+              />
+            </div>
+          </div>
+        </div>
       </header>
+
 
       {/* Skills + strengths */}
       <section className="mt-16">
