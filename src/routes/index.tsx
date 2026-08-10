@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import portrait from "@/assets/christin-divya.jpg.asset.json";
 import {
   Mail,
   Phone,
